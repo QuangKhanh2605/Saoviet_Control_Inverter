@@ -1,0 +1,65 @@
+Hướng dẫn sử dụng Control Inverter
+
+AMI/SVWMCI23000001/ReqAT
+"at+freqmin="
+"at+seri=SVWMCI23000001"
+
+1. "at+ivtconfig=" (1 Byte) Cấu hình Inverter
++ (0) Stop Config
++ (1) Config
+
++ Note: Khi cấu hình sẽ tắt trạng thái kết nối Inverter qua RS485 (Không cho phép đọc ghi du lieu tự động hoặc từ server gửi xuống). Nếu thấy mất kết nối trong thời gian dài cần kiểm tra than ghi cấu hình qua cú pháp 
+"at+ivtread="
+
+2. "at+ivtcontrol=" (1 Byte) Run Inverter
++ (0) Stop and Lock (Run/Stop) Inverter
++ (1) Run and Unlock (Run/Stop) Inverter
+
++ Note: Trạng thái Unlock chỉ có tác dụng tức thời không cho điều khiển Inverter qua RS485. Nếu cần khóa Inverter không cho điều khiển qua 485 cần cài đặt các thông số phù hợp qua cú pháp "at+ivtwriteR="
+
+3. "at+ivtread=" (1 Byte) Đọc các thông số cài đặt inverter
++ (1) Addr Flash Default Inverter (Flash: 0x0803F700)
++ (2) Addr Flash Run Inverter	  (Flash: 0x0803F800)
++ (3) Addr Flash Config Inverter  (Flash: 0x0803F900)
++ (4) All
++ (5) Parameter:
+	-Connect
+	-Config
+	-Permit Run/Stop 485
+	-Lock Run/Stop 485
+
+4. "at+ivtwriteD=" (6 Byte) Default Inverter
++ (1 Byte) ID Inverter
++ (1 Byte) Scale Inverter 
++ (2 Byte) Addr register setting frequency RS485
++ (2 Byte) Addr register output frequency 
+
++ Note:
+	Scale:
+		00 -> 1
+		FF -> 0.1
+		FE -> 0.01
+		FD -> 0.001
+		FC -> 0.0001
+		FB -> 0.00001
+	KDE200: 01 FF 03EB 00DD
+5. "at+ivtwriteR=" (6 Byte) Run Inverter
++ (2 Byte) Addr register run Inverter RS485
++ (2 Byte) Stop Inverter RS485
++ (2 Byte) Run Inverter RS485
+
++ Note: Nếu Stop=Run. Không cho điều khiển Inverter qua RS485
+	KDE200: 00C8 0000 0001
+
+6. "at+ivtwriteC=" (6 Byte) Config Inverter
++ (1 Byte) Thứ tự thanh ghi cấu hình
++ (1 Byte) Tổng thanh ghi cần cấu hình 
++ (2 Byte) Địa chỉ thanh ghi cấu hình
++ (2 Byte) Giá trị cần cấu hình của thanh ghi
+
++ Note: 
+	- Nếu đọc dữ liệu từ thanh ghi đầu tiên mà không đúng với giá trị cần cấu hình thì sẽ thực hiện cấu hình lại (tối đa cho phép 10 thanh ghi cần cấu hình)
+	- Sau khi hoàn thành cần kiểm tra qua cú pháp "at+ivtread=" để xác nhận dữ liệu cần cấu hình
+	- KDE200: 03E9 03EA 03EC 03ED
+
+*Note: Nếu 3 lần gửi data qua Inverter mà không nhận được phản hồi => Mất kết nối
