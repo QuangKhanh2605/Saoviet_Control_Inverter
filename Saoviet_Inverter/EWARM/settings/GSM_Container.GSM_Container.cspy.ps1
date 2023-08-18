@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\settings\GSM_Container.GSM_Container.general.xcl" --backend -f "D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\settings\GSM_Container.GSM_Container.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\settings\GSM_Container.GSM_Container.general.xcl" --backend -f "D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\settings\GSM_Container.GSM_Container.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\settings\GSM_Container.GSM_Container.general.xcl" --debug_file=$debugfile --backend -f "D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\settings\GSM_Container.GSM_Container.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\settings\GSM_Container.GSM_Container.general.xcl" --debug_file=$debugfile --backend -f "D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\settings\GSM_Container.GSM_Container.driver.xcl" 
 }
