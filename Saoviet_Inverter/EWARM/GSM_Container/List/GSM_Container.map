@@ -1,93 +1,93 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.2.214/W32 for ARM                  09/Aug/2023  16:11:06
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  13/Oct/2023  16:04:13
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Exe\GSM_Container.out
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Exe\GSM_Container.out
 #    Map file     =
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\List\GSM_Container.map
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\List\GSM_Container.map
 #    Command line =
-#        -f C:\Users\PC\AppData\Local\Temp\EWE7C8.tmp
-#        (D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\adc.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\cat24mxx.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\event_driven.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\gpio.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\i2c.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\main.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\MQTTConnectClient.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\MQTTConnectServer.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\MQTTDeserializePublish.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\MQTTFormat.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\MQTTPacket.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\MQTTSerializePublish.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\MQTTSubscribeClient.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\MQTTSubscribeServer.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\MQTTUnsubscribeClient.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\MQTTUnsubscribeServer.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\onchipflash.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\queue_p.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\rtc.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\S25FL216K.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\spi.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\startup_stm32l151xc.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_adc.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_adc_ex.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_cortex.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_dma.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_exti.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_flash.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_flash_ex.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_flash_ramfunc.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_gpio.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_i2c.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_msp.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_pwr.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_pwr_ex.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_rcc.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_rcc_ex.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_rtc.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_rtc_ex.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_spi.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_tim.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_tim_ex.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_hal_uart.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\stm32l1xx_it.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\system_stm32l1xx.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\usart.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_adc.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_app_comm.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_app_inverter.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_app_mem.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_app_sim.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_at_serial.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_ec200u.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_external_eeprom.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_external_flash.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_internal_mem.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_log.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_lpm.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_modbus_rtu.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_modem.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_modem_init.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_mqtt.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_obis_sv.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_rtc.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_sim.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_sim_common.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_string.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_time.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_timer.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_uart.o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj\user_util.o
+#        -f C:\Users\PC\AppData\Local\Temp\EW4139.tmp
+#        (D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\adc.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\cat24mxx.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\event_driven.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\gpio.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\i2c.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\main.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\MQTTConnectClient.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\MQTTConnectServer.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\MQTTDeserializePublish.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\MQTTFormat.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\MQTTPacket.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\MQTTSerializePublish.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\MQTTSubscribeClient.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\MQTTSubscribeServer.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\MQTTUnsubscribeClient.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\MQTTUnsubscribeServer.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\onchipflash.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\queue_p.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\rtc.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\S25FL216K.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\spi.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\startup_stm32l151xc.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_adc.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_adc_ex.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_cortex.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_dma.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_exti.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_flash.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_flash_ex.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_flash_ramfunc.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_gpio.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_i2c.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_msp.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_pwr.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_pwr_ex.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_rcc.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_rcc_ex.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_rtc.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_rtc_ex.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_spi.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_tim.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_tim_ex.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_hal_uart.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\stm32l1xx_it.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\system_stm32l1xx.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\usart.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_adc.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_app_comm.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_app_inverter.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_app_mem.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_app_sim.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_at_serial.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_ec200u.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_external_eeprom.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_external_flash.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_internal_mem.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_log.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_lpm.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_modbus_rtu.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_modem.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_modem_init.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_mqtt.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_obis_sv.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_rtc.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_sim.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_sim_common.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_string.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_time.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_timer.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_uart.o
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj\user_util.o
 #        --no_out_extension -o
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Exe\GSM_Container.out
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Exe\GSM_Container.out
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --map
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\List\GSM_Container.map
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\List\GSM_Container.map
 #        --config
-#        D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM/stm32l151xc_flash.icf
+#        D:\Saoviet_Bitbucket\Saoviet_Container\EWARM/stm32l151xc_flash.icf
 #        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
@@ -895,7 +895,7 @@ command line/config:
     ---------------------------------------------------
     Total:
 
-D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj: [1]
+D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj: [1]
     MQTTConnectClient.o           512       16
     MQTTPacket.o                  284
     MQTTSerializePublish.o        224        4
@@ -2112,7 +2112,7 @@ writeInt                 0x801'1717   0x2a  Code  Gb  MQTTPacket.o [1]
 writeMQTTString          0x801'1775   0x46  Code  Gb  MQTTPacket.o [1]
 
 
-[1] = D:\Saoviet_Git\Saoviet_Control_Inverter\Saoviet_Inverter\EWARM\GSM_Container\Obj
+[1] = D:\Saoviet_Bitbucket\Saoviet_Container\EWARM\GSM_Container\Obj
 [2] = dl7M_tlf.a
 [3] = m7M_tl.a
 [4] = rt7M_tl.a
